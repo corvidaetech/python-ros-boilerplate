@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>   
+
+  <!-- Start sample_node --> 
+  <node name="sample_node" pkg="sample_node" type="sample_node.py" output="screen">
+
+    <param name="baud" type="int" value="115200" />
+    <param name="portname" type="string" value="/dev/ttyUSB0" />
+    <param name="max_range" type="double" value="50.0" />
+
+  </node>
+
+</launch>
